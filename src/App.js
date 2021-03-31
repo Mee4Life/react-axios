@@ -18,11 +18,12 @@ function App() {
 
 
 
+
   // setup app state
   const [isDark, setIsDark] = useState(false)
   const [token, setUserToken] = useState(getToken())
   const [userCard, setUserCard] = useState(getUserCard())
-  const [apiBase] = useState('http://3.120.11.152:8863')
+  const [apiBase] = useState('http://localhost:8865')
   const { height, width } = useWindowDimensions();
 
   // navbar status 
