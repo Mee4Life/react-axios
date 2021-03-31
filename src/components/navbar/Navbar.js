@@ -7,7 +7,7 @@ function Navbar(props) {
     return (
         <div className={getCls('wrapper')}>
             <div className={getCls('RQVEcD')}>
-                <h1>Navbar</h1>
+                <h1>Axios</h1>
             </div>
         </div>
     )

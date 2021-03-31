@@ -51,7 +51,7 @@ function App() {
 
 
   return (< Router >
-    <div className={getCls('app')}>
+    <div className={getCls('App')}>
 
       <Navbar p={p} />
 
